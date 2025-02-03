@@ -1,4 +1,5 @@
 def start_server(host, port):
+    print("Starting server")
     # Create a socket object using IPv4 and TCP protocol
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
