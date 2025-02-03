@@ -1,3 +1,4 @@
+import socket
 def connect_to_server(host, port):
     # Create a socket object using IPv4 and TCP protocol
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -13,4 +14,4 @@ def connect_to_server(host, port):
     client_socket.close()
 
 # Connect to the server with local host IP and port 12345
-connect_to_server('192.168.2.11' 12345)
+connect_to_server('192.168.2.11', 12345)
